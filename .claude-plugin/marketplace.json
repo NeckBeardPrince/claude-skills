@@ -1,17 +1,17 @@
 {
   "name": "adams-personal-skills",
+  "description": "Adam's personal Claude Code skills",
+  "version": "0.1.0",
   "owner": {
     "name": "NeckBeardPrince"
-  },
-  "metadata": {
-    "description": "Adam's personal Claude Code skills",
-    "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "hello",
-      "source": "./skills/hello",
-      "description": "A simple skill that says hello to the user."
+      "description": "A simple skill that says hello to the user.",
+
+      "version": "0.0.1",
+      "source": "./skills/hello"
     }
   ]
 }
